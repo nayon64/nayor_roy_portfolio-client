@@ -56,7 +56,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal p-0">{menus}</ul>
         </div>
         <div className="navbar-end">
-          <Link className="btn">Get started</Link>
+          <Link className="py-2 px-3 border rounded-lg btn-neutral text-white hover:bg-white hover:text-primary transition-all duration-500">Resume</Link>
         </div>
       </div>
     </div>
