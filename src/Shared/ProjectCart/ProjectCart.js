@@ -4,7 +4,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 import { TbBrandGithub } from "react-icons/tb";
 
 const ProjectCart = ({ i, project }) => {
-	console.log(project)
+	
 	const odd = (i + 1) % 2
 	
 	return (
@@ -30,8 +30,9 @@ const ProjectCart = ({ i, project }) => {
           <p>{project?.details}</p>
         </div>
         <p>
-          {project?.features?.map((feature) => (
-            <span
+          {project?.features?.map((feature,i) => (
+            <span 
+              key={i}
               className={`${
                 odd === 1 ? "ml-3" : "mr-3"
               }`}
