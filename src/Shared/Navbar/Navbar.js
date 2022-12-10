@@ -24,7 +24,7 @@ const Navbar = () => {
 
 	return (
     <div className="bg-primary text-white">
-      <div className="navbar max-w-7xl mx-auto">
+      <div className="navbar max-w-5xl mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -61,7 +61,7 @@ const Navbar = () => {
             download="Nayon Roy Resume (4).pdf"
           >
             <button className="py-2 px-3 border rounded-lg btn-neutral text-white hover:bg-white hover:text-primary transition-all duration-500">
-              Resume
+              Resume <span>&#129063;</span>
             </button>
           </a>
         </div>

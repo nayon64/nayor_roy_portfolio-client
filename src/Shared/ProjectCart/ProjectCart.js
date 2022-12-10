@@ -8,17 +8,17 @@ const ProjectCart = ({ i, project }) => {
 	const odd = (i + 1) % 2
 	
 	return (
-    <section className={`grid md:grid-cols-2  max-h-96 overflow-hidden my-24`}>
+    <section className={`grid md:grid-cols-2   my-24`}>
       <div
-        className={`${
-          odd === 1 ? "order-1 -mr-12 z-10" : "order-2 -ml-12 z-20"
+        className={`max-h-96 overflow-hidden ${
+          odd === 1 ? "order-1 sm:-mr-12 z-10" : "order-2 sm:-ml-12 z-20"
         }`}
       >
-        <img className="w-full " src={project?.img} alt="" />
+        <img className="w-full" src={project?.img} alt="" />
       </div>
 
       <div
-        className={`flex flex-col max-h-96 justify-center ${
+        className={`flex flex-col max-h-96 py-4 px-4 justify-center ${
           odd === 1 ? "text-right order-2 z-10" : "text-left order-1 z-20"
         }`}
       >
@@ -30,13 +30,8 @@ const ProjectCart = ({ i, project }) => {
           <p>{project?.details}</p>
         </div>
         <p>
-          {project?.features?.map((feature,i) => (
-            <span 
-              key={i}
-              className={`${
-                odd === 1 ? "ml-3" : "mr-3"
-              }`}
-            >
+          {project?.features?.map((feature, i) => (
+            <span key={i} className={`${odd === 1 ? "ml-3" : "mr-3"}`}>
               {feature}
             </span>
           ))}{" "}
