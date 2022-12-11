@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import "react-photo-view/dist/react-photo-view.css";
 
 const queryClient = new QueryClient();
 

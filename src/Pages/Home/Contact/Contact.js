@@ -25,13 +25,14 @@ const Contact = () => {
 	}
 
 	return (
-    <div>
-      
+    <div className="mt-12">
       <form
         onSubmit={handleSubmit}
         className="max-w-xl border-2 rounded-lg p-8 mx-auto bg-primary "
       >
-        <h1 className='text-white font-bold text-3xl text-center'>Contact Me</h1>
+        <h1 className="text-white font-bold text-3xl text-center">
+          Contact Me
+        </h1>
         <div className="form-control w-full ">
           <label className="label">
             <span className="label-text text-white">Your Name</span>

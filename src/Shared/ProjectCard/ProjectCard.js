@@ -1,11 +1,17 @@
 import React from "react";
+import { PhotoProvider, PhotoView } from "react-photo-view";
 import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
   return (
     <div className=" rounded-md overflow-hidden h-96  bg-secondary shadow-xl ">
       <div className="px-2 h-1/2 overflow-hidden">
-        <img className="" src={project?.img} alt="Shoes" />
+        <PhotoProvider>
+          <PhotoView src={project?.img}>
+            <img src={project.img} alt="" />
+          </PhotoView>
+        </PhotoProvider>
+        
       </div>
       <div className=" flex flex-col justify-between h-1/2 pt-1 pb-4 px-4">
         <div>

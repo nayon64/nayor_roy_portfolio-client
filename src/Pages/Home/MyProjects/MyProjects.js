@@ -19,8 +19,8 @@ const MyProjects = () => {
 	}
 	
 	return (
-    <section className="bg-primary">
-      <div className="max-w-5xl mx-auto py-6 my-6 px-4 text-white">
+    <section className="bg-primary my-12">
+      <div className="max-w-5xl mx-auto py-6 md:py-12 my-6 px-4 text-white">
         <h1 className="text-4xl font-bold text-center mb-6">
           My Recent Works
 				</h1>
