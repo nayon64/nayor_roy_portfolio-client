@@ -4,9 +4,9 @@ const Banner = () => {
 	return (
     <div className="hero  py-20 bg-primary">
       <div className="hero-content max-w-5xl mx-auto grid md:grid-cols-2">
-        <div className="mx-auto w-72 border-8 hover:bg-secondary duration-500 rounded-full overflow-hidden">
+        <div className="mx-auto max-w-xs  border-8 hover:bg-secondary duration-500 rounded-full overflow-hidden">
           <img
-            className=" transition-all hover:translate-x-2 hover:translate-y-3 duration-500"
+            className=" transition-all  hover:translate-x-2 hover:translate-y-3 duration-500"
             src="https://i.ibb.co/c8WtGZ2/nayonroy.png"
             alt=""
           />

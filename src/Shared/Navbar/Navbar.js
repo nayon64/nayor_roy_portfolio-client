@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link>About</Link>
       </li>
       <li>
-        <Link>Blogs</Link>
+        <Link to="/blogs">Blogs</Link>
       </li>
 
     </>
@@ -45,12 +45,12 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact text-primary dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               {menus}
             </ul>
           </div>
-          <Link className="text-2xl font-bold uppercase">Nayon Roy</Link>
+          <Link to="/" className="text-2xl font-bold uppercase">Nayon Roy</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0">{menus}</ul>
