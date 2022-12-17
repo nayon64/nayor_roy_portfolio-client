@@ -12,10 +12,10 @@ const Skills = () => {
     <section className="max-w-5xl mx-auto my-6 px-4 ">
       <h1 className="text-4xl font-bold text-center mb-6">My Skills</h1>
       <div className="grid sm:grid-cols-2 max-w-3xl mx-auto gap-6">
-        <div className="flex justify-between border border-primary p-4 text-primary rounded-lg">
+        <div className="group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
             <img
-              className="w-9 icon-img my-auto hover:scale-125 duration-300 transition"
+              className="w-9 icon-img my-auto group-hover:scale-150 duration-300      transition"
               src={htmlIcon}
               alt=""
             />
@@ -27,9 +27,13 @@ const Skills = () => {
 
           <button className="flex items-start">&#129062;</button>
         </div>
-        <div className="flex justify-between border border-primary p-4 text-primary rounded-lg">
+        <div className="group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
-            <img className="w-9 my-auto" src={cssIcon} alt="" />
+            <img
+              className="w-9 group-hover:scale-150 duration-300      my-auto"
+              src={cssIcon}
+              alt=""
+            />
             <div className="ml-3">
               <h2 className="text-xl font-semibold">CSS3</h2>
               <p>1 year of experience</p>
@@ -38,9 +42,13 @@ const Skills = () => {
 
           <button className="flex items-start">&#129062;</button>
         </div>
-        <div className="flex justify-between border border-primary p-4 text-primary rounded-lg">
+        <div className="group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
-            <img className="w-9 my-auto" src={boostrapIcon} alt="" />
+            <img
+              className="w-9 my-auto group-hover:scale-150 duration-300    "
+              src={boostrapIcon}
+              alt=""
+            />
             <div className="ml-3">
               <h2 className="text-xl font-semibold">Bootstrap</h2>
               <p>1 year of experience</p>
@@ -49,9 +57,13 @@ const Skills = () => {
 
           <button className="flex items-start">&#129062;</button>
         </div>
-        <div className="flex justify-between border border-primary p-4 text-primary rounded-lg">
+        <div className="group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
-            <img className="w-9 my-auto" src={tailwindIcon} alt="" />
+            <img
+              className="w-9 my-auto group-hover:scale-150 duration-300    "
+              src={tailwindIcon}
+              alt=""
+            />
             <div className="ml-3">
               <h2 className="text-xl font-semibold">Tailwind</h2>
               <p>6 months of experience</p>
@@ -60,9 +72,13 @@ const Skills = () => {
 
           <button className="flex items-start">&#129062;</button>
         </div>
-        <div className="flex justify-between border border-primary p-4 text-primary rounded-lg">
+        <div className="group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
-            <img className="w-9 my-auto" src={jsIcon} alt="" />
+            <img
+              className="w-9 my-auto group-hover:scale-150 duration-300    "
+              src={jsIcon}
+              alt=""
+            />
             <div className="ml-3">
               <h2 className="text-xl font-semibold">JavaScript</h2>
               <p>5 months of experience</p>
@@ -71,9 +87,13 @@ const Skills = () => {
 
           <button className="flex items-start">&#129062;</button>
         </div>
-        <div className="flex justify-between border border-primary p-4 text-primary rounded-lg">
+        <div className="group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
-            <img className="w-9 my-auto" src={reactIcon} alt="" />
+            <img
+              className="w-9 my-auto group-hover:scale-150 duration-300    "
+              src={reactIcon}
+              alt=""
+            />
             <div className="ml-3">
               <h2 className="text-xl font-semibold">ReactJS</h2>
               <p>4 months experience</p>
@@ -82,9 +102,13 @@ const Skills = () => {
 
           <button className="flex items-start">&#129062;</button>
         </div>
-        <div className="flex justify-between border border-primary p-4 text-primary rounded-lg">
+        <div className=" group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
-            <img className="w-9 my-auto" src={githubIcon} alt="" />
+            <img
+              className="w-9 my-auto group-hover:scale-150 duration-300    "
+              src={githubIcon}
+              alt=""
+            />
             <div className="ml-3">
               <h2 className="text-xl font-semibold">GitHub</h2>
               <p>5 months of experience</p>
@@ -93,9 +117,13 @@ const Skills = () => {
 
           <button className="flex items-start">&#129062;</button>
         </div>
-        <div className="flex justify-between border border-primary p-4 text-primary rounded-lg">
+        <div className=" group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
-            <img className="w-9 my-auto" src={htmlIcon} alt="" />
+            <img
+              className="w-9 my-auto group-hover:scale-150 duration-300    "
+              src={htmlIcon}
+              alt=""
+            />
             <div className="ml-3">
               <h2 className="text-xl font-semibold">HTML5</h2>
               <p>1 year of experience</p>
