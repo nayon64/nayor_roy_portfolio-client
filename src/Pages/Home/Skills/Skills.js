@@ -7,7 +7,7 @@ import jsIcon from "../../../assets/icons/js.png"
 import reactIcon from "../../../assets/icons/physics.png"
 import githubIcon from "../../../assets/icons/github.png"
 
-const Skills = () => {
+const Skills = ({setProps}) => {
 	return (
     <section className="max-w-5xl mx-auto my-6 px-4 ">
       <h1 className="text-4xl font-bold text-center mb-6">My Skills</h1>
@@ -25,7 +25,12 @@ const Skills = () => {
             </div>
           </div>
 
-          <button className="flex items-start">&#129062;</button>
+          <button
+            className="flex items-start"
+            onClick={() => setProps({ title: "HTML5", experienct: "1 Year" })}
+          >
+            &#129062;
+          </button>
         </div>
         <div className="group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
@@ -40,7 +45,12 @@ const Skills = () => {
             </div>
           </div>
 
-          <button className="flex items-start">&#129062;</button>
+          <button
+            className="flex items-start"
+            onClick={() => setProps({ title: "CSS3", experienct: "1 Year" })}
+          >
+            &#129062;
+          </button>
         </div>
         <div className="group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
