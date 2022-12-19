@@ -3,7 +3,7 @@ import React from 'react';
 const SkillModal = ({ props, setProps }) => {
 	console.log(props)
 	return (
-    <div className="fixed top-0 flex items-center w-screen justify-center  h-full">
+    <div className="fixed bg-primary transition-all duration-300 bg-opacity-70 top-0 flex items-center w-screen justify-center  h-full">
       <div className=" card w-96 bg-red-100 shadow-xl mx-auto">
         <div className="card-body">
           <h2 className="card-title">Card title!</h2>
