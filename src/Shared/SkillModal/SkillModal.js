@@ -1,7 +1,8 @@
 import React from 'react';
 
 const SkillModal = ({ props, setProps }) => {
-	console.log(props)
+  console.log(props)
+  console.log("Programing"&&"Hero")
 	return (
     <div className="fixed bg-primary transition-all duration-300 bg-opacity-70 top-0 flex items-center w-screen justify-center  h-full">
       <div className=" card w-96 bg-red-100 shadow-xl mx-auto">
