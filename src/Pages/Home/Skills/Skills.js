@@ -65,7 +65,12 @@ const Skills = ({setProps}) => {
             </div>
           </div>
 
-          <button className="flex items-start">&#129062;</button>
+          <button
+            className="flex items-start"
+            onClick={() => setProps({ title: "HTML5", experienct: "1 Year" })}
+          >
+            &#129062;
+          </button>
         </div>
         <div className="group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
@@ -80,7 +85,12 @@ const Skills = ({setProps}) => {
             </div>
           </div>
 
-          <button className="flex items-start">&#129062;</button>
+          <button
+            className="flex items-start"
+            onClick={() => setProps({ title: "HTML5", experienct: "1 Year" })}
+          >
+            &#129062;
+          </button>
         </div>
         <div className="group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
@@ -95,7 +105,12 @@ const Skills = ({setProps}) => {
             </div>
           </div>
 
-          <button className="flex items-start">&#129062;</button>
+          <button
+            className="flex items-start"
+            onClick={() => setProps({ title: "HTML5", experienct: "1 Year" })}
+          >
+            &#129062;
+          </button>
         </div>
         <div className="group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
@@ -110,7 +125,12 @@ const Skills = ({setProps}) => {
             </div>
           </div>
 
-          <button className="flex items-start">&#129062;</button>
+          <button
+            className="flex items-start"
+            onClick={() => setProps({ title: "HTML5", experienct: "1 Year" })}
+          >
+            &#129062;
+          </button>
         </div>
         <div className=" group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
@@ -125,7 +145,12 @@ const Skills = ({setProps}) => {
             </div>
           </div>
 
-          <button className="flex items-start">&#129062;</button>
+          <button
+            className="flex items-start"
+            onClick={() => setProps({ title: "HTML5", experienct: "1 Year" })}
+          >
+            &#129062;
+          </button>
         </div>
         <div className=" group flex justify-between border border-primary p-4 text-primary rounded-lg">
           <div className="flex items-center">
@@ -140,7 +165,12 @@ const Skills = ({setProps}) => {
             </div>
           </div>
 
-          <button className="flex items-start">&#129062;</button>
+          <button
+            className="flex items-start"
+            onClick={() => setProps({ title: "HTML5", experienct: "1 Year" })}
+          >
+            &#129062;
+          </button>
         </div>
       </div>
     </section>
