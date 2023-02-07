@@ -67,7 +67,9 @@ const Skills = ({setProps}) => {
 
           <button
             className="flex items-start"
-            onClick={() => setProps({ title: "HTML5", experienct: "1 Year" })}
+            onClick={() =>
+              setProps({ title: "Bootstrap", experienct: "1 Year" })
+            }
           >
             &#129062;
           </button>
@@ -87,7 +89,9 @@ const Skills = ({setProps}) => {
 
           <button
             className="flex items-start"
-            onClick={() => setProps({ title: "HTML5", experienct: "1 Year" })}
+            onClick={() =>
+              setProps({ title: "Tailwind", experienct: "6 months" })
+            }
           >
             &#129062;
           </button>
@@ -107,7 +111,9 @@ const Skills = ({setProps}) => {
 
           <button
             className="flex items-start"
-            onClick={() => setProps({ title: "HTML5", experienct: "1 Year" })}
+            onClick={() =>
+              setProps({ title: "JavaScript", experienct: "5 months" })
+            }
           >
             &#129062;
           </button>
@@ -127,7 +133,9 @@ const Skills = ({setProps}) => {
 
           <button
             className="flex items-start"
-            onClick={() => setProps({ title: "HTML5", experienct: "1 Year" })}
+            onClick={() =>
+              setProps({ title: "ReactJS", experienct: "4 months" })
+            }
           >
             &#129062;
           </button>
@@ -147,7 +155,9 @@ const Skills = ({setProps}) => {
 
           <button
             className="flex items-start"
-            onClick={() => setProps({ title: "HTML5", experienct: "1 Year" })}
+            onClick={() =>
+              setProps({ title: "GitHub", experienct: "5 months" })
+            }
           >
             &#129062;
           </button>
